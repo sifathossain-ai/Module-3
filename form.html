@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Fill-up </title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h2>Fill-up This From</h2>
+        <form>
+            <label for="name"> Your Name:
+                <input type="name" placeholder="Your Name">
+            </label>
+            <label for="email"> Your Email:
+                <input type="email" placeholder="Your Email">
+            </label>
+            <label for="phone"> Your Phone:
+                <input type="phone" placeholder="Your Phone">
+            </label>
+
+
+            <fieldset>
+                <legend>Pick One Pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy"> Chitoy
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa"> Vapa
+                </label>
+                <label for="puri">
+                    <input type="radio" name="pitha" id="puri"> Puri
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick One or More Vorta</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha"> Sorisha
+                </label>
+                <label for="dal">
+                    <input type="checkbox" name="vorta" id="dal"> Dal
+                </label>
+                <label for="alu">
+                    <input type="checkbox" name="vorta" id="alu"> Alu
+                </label>
+                <label for="badam">
+                    <input type="checkbox" name="vorta" id="badam"> Badam
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
